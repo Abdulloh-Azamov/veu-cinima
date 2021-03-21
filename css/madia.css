@@ -1,0 +1,245 @@
+/* @media(max-width: 1440px){} */
+
+/* @media(max-width: 1336px){} */
+
+/* @media(max-width: 1320px){} */
+
+/* @media(max-width: 1290px){} */
+
+/* @media(max-width: 1140px){} */
+
+@media(max-width: 1024px){
+    /* films start */
+    
+    .films__cards {
+        row-gap: 40px;
+    }
+    
+    .films__card {
+        max-width: unset;
+        width: 48%;
+        
+    }
+    
+    /* films end */
+    /* collection start */
+    .collection__box {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .collection__item {
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+    
+}
+@media(max-width: 992px){
+    /* premier start */
+    .oremier__video {
+        width: 100%;
+        
+    }
+    .premier__content {
+        background: rgba(214, 209, 209, 0.7);
+    }
+    .premier__content .container {
+        text-align: center;
+    }
+    .premier__content-txt {
+        text-align: center;
+        margin: 0 auto 55px;
+    }
+    
+    /* premier end */
+}
+@media(max-width: 768px){
+    /* header strat */
+    .header__list {
+        display: none;
+    }
+    .header__nav {
+        padding: 20px 0;
+    }
+    .header__menu {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__line {
+        width: 100%;
+        height: 2px;
+        background: var(--text);
+        position: relative;
+    }
+    
+    .header__line::before {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 2px;
+        background: var(--text);
+        top: 10px;
+        left: 0;
+                
+    }
+    .header__line::after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 2px;
+        background: var(--text);
+        top: -10px;
+        left: 0;
+                
+    }
+    /* header end */
+    
+    /* series strat */
+    
+    .md {
+        grid-row: 1 span;
+        grid-column: 4 span;
+    }
+    
+    .md .series__content-photo {
+        object-position: 0 35%;
+    }
+    
+    .sm {
+        grid-column: 2 span;
+    }
+    
+    /* series end */
+}
+@media(max-width: 684px){
+    /* banner start */
+    .banner__big-img {
+        object-position: 75% 0;
+    }
+    /* banner end  */
+    
+    /* films start */
+    .films__card-img {
+        object-position: 0 0;
+    }
+    /* films end */
+}
+/* @media(max-width: 667px){} */
+
+@media(max-width: 576px){
+    /* banner start */
+    .banner__title {
+        font-size: 42px; 
+    }
+    .banner__txt {
+        font-size: 14px;
+    }
+    /* banner end */
+    
+    /* premier start  */
+        .premier__content-img {
+        width: 70%;
+    }
+    .premier__content-txt {
+        display: none;
+    }
+/* premier end */
+
+/* footer start */
+
+.footer__container {
+    flex-direction: column;
+    
+}
+
+.footer__app {
+    margin-bottom: 20px;
+}
+    
+.footer__txt {
+    font-size: 14px;
+}
+    /*footer end  */
+    
+    /* films start */
+    .films__card {
+        width: 100%;
+    }
+    .films__card-txt {
+        text-align: center;
+    }
+    /* footer end */
+}
+@media(max-width: 414px){
+    /* banner start */
+    .header__logo {
+        font-size: 14px;        
+    }
+    .header__logo-img {
+        width: 50%;
+    }
+    .banner__btns {
+       justify-content: center;
+    }
+    
+    .btn {
+        max-width: 140px;
+        font-size: 14px;
+        width: 70%;
+        padding: 12px;
+    }
+    
+    .banner__title {
+        font-size: 32px;
+    }
+    /* banner end */
+    .title {
+        margin: 0 auto 54px ;
+        font-size: 28px;
+    }
+    /* series start */
+    .series__desc-title {
+        font-size: 32px ;
+    }
+    .series__desc-txt {
+        font-size: 14px;
+    }
+    .sm {
+        grid-column: 4 span;
+    }
+    
+    /* series end */
+}
+
+
+/* @media(max-width: 375px){} */
+
+@media(max-width: 320px){
+    /* header start */
+    .header__logo {
+        font-size: 12px;
+    }
+    .header__logo-img {
+        width: 45%;
+    } 
+    
+    /* header end */
+    
+    /* banner start */
+    .banner {
+        min-height: 50vh;
+    }
+    .banner__title {
+        font-size: 28px;
+    }
+    /* banner end */
+    
+    /* series start */
+    .series__desc-title {
+        font-size: 26px;
+    }
+    /* series end */
+}
